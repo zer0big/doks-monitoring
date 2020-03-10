@@ -13,7 +13,7 @@ data:
     - name: default-receiver
       slack_configs:
        - channel: 'aks-alert-demo'
-         api_url: 'https://hooks.slack.com/services/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'
+         api_url: 'https://hooks.slack.com/services/...'
          title: zeroaks-alarm-notificatin-demo
          text: This is just a test.
          send_resolved: true
