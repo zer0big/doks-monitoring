@@ -90,9 +90,9 @@ spec:
       name: $APP_INSTANCE_NAME-prometheus-data
       labels: *Labels
     spec:
-      storageClassName: do-block-storage
+      storageClassName: default
       accessModes:
         - ReadWriteOnce
       resources:
         requests:
-          storage: "16Gi"
+          storage: "3Gi"

@@ -110,9 +110,9 @@ spec:
   - metadata:
       name: $APP_INSTANCE_NAME-grafana-data
     spec:
-      storageClassName: do-block-storage
+      storageClassName: default
       accessModes:
         - ReadWriteOnce
       resources:
         requests:
-          storage: "2Gi"
+          storage: "1Gi"

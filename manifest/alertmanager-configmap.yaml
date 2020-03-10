@@ -11,6 +11,12 @@ data:
     global: null
     receivers:
     - name: default-receiver
+      slack_configs:
+       - channel: 'aks-alert-demo'
+         api_url: 'https://hooks.slack.com/services/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'
+         title: zeroaks-alarm-notificatin-demo
+         text: This is just a test.
+         send_resolved: true
     route:
       group_interval: 5m
       group_wait: 10s
